@@ -1,8 +1,8 @@
-firefox-automatic-cleaner
+# firefox-automatic-cleaner
 
 A lightweight tool that runs in the system tray and clears Firefox cache every 2 hours to improve browsing performance.
 
-Features
+## Features
 
 Automatically detects and clears Firefox cache every 2 hours.
 
@@ -12,24 +12,24 @@ Skips locked files to avoid interruptions.
 
 Improves browser performance by managing cache size.
 
-Requirements
+## Requirements
 
 Python 3.7 or newer
 
-Libraries:
+## Libraries:
 
 pystray
 
 pillow
 
-Installation
+## Installation
 
 Clone this repository:
 
 git clone https://github.com/AlexanderBrods/firefox-automatic-cleaner.git
 cd firefox-automatic-cleaner
 
-Install the required dependencies:
+## Install the required dependencies:
 
 pip install pystray pillow
 
@@ -37,7 +37,7 @@ Run the script:
 
 python Firefox_cleaner_auto.py
 
-How It Works
+## How It Works
 
 When you run the script, it creates a system tray icon.
 
